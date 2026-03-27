@@ -1,0 +1,37 @@
+[
+  {
+    "id": "u1",
+    "name": "Amina Saidova",
+    "email": "amina@example.com",
+    "role": "member",
+    "status": "online"
+  },
+  {
+    "id": "u2",
+    "name": "Bekzod Karimov",
+    "email": "bekzod@example.com",
+    "role": "member",
+    "status": "online"
+  },
+  {
+    "id": "u3",
+    "name": "Sabina Rustam",
+    "email": "sabina@example.com",
+    "role": "editor",
+    "status": "away"
+  },
+  {
+    "id": "u4",
+    "name": "Jamshid Nur",
+    "email": "jamshid@example.com",
+    "role": "member",
+    "status": "offline"
+  },
+  {
+    "id": "u5",
+    "name": "Afzalbek Oribjonov",
+    "email": "orifjonov0916@gmail.com",
+    "role": "admin",
+    "status": "online"
+  }
+]

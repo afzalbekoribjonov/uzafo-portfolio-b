@@ -1,0 +1,194 @@
+{
+  "name": "Afzalbek Oribjonov",
+  "tagline": {
+    "uz": "Afzalbek Oribjonov — 2021 yildan beri frontend, backend va AI/ML yo'nalishlarida kuchli amaliy tajribaga ega developer.",
+    "en": "Afzalbek Oribjonov — a developer with strong hands-on experience in frontend, backend, and AI/ML since 2021."
+  },
+  "summary": {
+    "uz": "Men mahsulot fikrlashi, kuchli kod tuzilmasi va foydalanuvchi tajribasini birlashtirib ishlaydigan dasturchiman. 2021 yildan beri web ilovalar, admin panellar, Telegram botlar, API arxitekturasi, deploy jarayonlari va AI integratsiyalar ustida ishlab kelaman.",
+    "en": "I am a developer who combines product thinking, strong code structure, and user experience. Since 2021, I have been building web apps, admin panels, Telegram bots, API architectures, deployment workflows, and AI integrations."
+  },
+  "location": "Tashkent, Uzbekistan",
+  "email": "orifjonov0916@gmail.com",
+  "availability": {
+    "uz": "Freelance va product loyihalar uchun ochiqman",
+    "en": "Open for freelance and product work"
+  },
+  "university": {
+    "name": "Sharda University",
+    "degree": {
+      "uz": "BTech, AI&ML with CSE yoʻnalishi",
+      "en": "BTech, AI&ML with CSE"
+    }
+  },
+  "experienceYears": 5,
+  "techCategories": [
+    {
+      "key": "frontend",
+      "title": {
+        "uz": "Frontend",
+        "en": "Frontend"
+      },
+      "items": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Vue",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "key": "backend",
+      "title": {
+        "uz": "Backend",
+        "en": "Backend"
+      },
+      "items": [
+        "Python",
+        "FastAPI",
+        "Node.js",
+        "Express",
+        "REST APIs",
+        "JWT",
+        "MongoDB"
+      ]
+    },
+    {
+      "key": "ai",
+      "title": {
+        "uz": "AI & ML",
+        "en": "AI & ML"
+      },
+      "items": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Scikit-learn",
+        "Prompt Engineering",
+        "LLM Integration",
+        "Automation"
+      ]
+    },
+    {
+      "key": "tools",
+      "title": {
+        "uz": "Asboblar",
+        "en": "Tools"
+      },
+      "items": [
+        "Git",
+        "GitHub",
+        "Docker",
+        "Figma",
+        "Postman",
+        "Vercel",
+        "Render"
+      ]
+    }
+  ],
+  "skillMetrics": [
+    {
+      "name": "React / Next.js",
+      "level": 92
+    },
+    {
+      "name": "TypeScript",
+      "level": 86
+    },
+    {
+      "name": "Python",
+      "level": 91
+    },
+    {
+      "name": "API Design",
+      "level": 88
+    },
+    {
+      "name": "MongoDB",
+      "level": 80
+    },
+    {
+      "name": "AI Integration",
+      "level": 84
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2022",
+      "title": {
+        "uz": "Portfolio va freelancer loyihalari",
+        "en": "Portfolio and freelance projects"
+      },
+      "description": {
+        "uz": "Frontend va Telegram bot loyihalari orqali amaliy tajriba yig'ildi.",
+        "en": "Built practical experience through frontend and Telegram bot projects."
+      }
+    },
+    {
+      "year": "2023",
+      "title": {
+        "uz": "Backend va deploy jarayonlari",
+        "en": "Backend and deployment workflows"
+      },
+      "description": {
+        "uz": "API, server, hosting va monitoring bilan muntazam ishlash boshlandi.",
+        "en": "Started working regularly with APIs, servers, hosting, and monitoring."
+      }
+    },
+    {
+      "year": "2024",
+      "title": {
+        "uz": "AI integratsiyalar",
+        "en": "AI integrations"
+      },
+      "description": {
+        "uz": "LLM xizmatlari va avtomatlashtirilgan kontent pipeline'lar ustida ishlash.",
+        "en": "Worked on LLM services and automated content pipelines."
+      }
+    },
+    {
+      "year": "2025+",
+      "title": {
+        "uz": "To'liq mahsulotlar",
+        "en": "Full product systems"
+      },
+      "description": {
+        "uz": "Frontend, backend va AI qatlamlarini birlashtirgan to'liq tizimlar qurish.",
+        "en": "Building complete systems that connect frontend, backend, and AI layers."
+      }
+    }
+  ],
+  "stats": [
+    {
+      "label": {
+        "uz": "Tayyorlangan loyihalar",
+        "en": "Projects built"
+      },
+      "value": "24+"
+    },
+    {
+      "label": {
+        "uz": "Asosiy stack",
+        "en": "Core stack"
+      },
+      "value": "Next.js · Python"
+    },
+    {
+      "label": {
+        "uz": "Fokus",
+        "en": "Focus"
+      },
+      "value": "Next.js + Python + AI"
+    },
+    {
+      "label": {
+        "uz": "Til",
+        "en": "Languages"
+      },
+      "value": "Uzbek · English"
+    }
+  ]
+}

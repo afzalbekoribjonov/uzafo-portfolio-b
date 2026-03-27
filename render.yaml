@@ -1,0 +1,39 @@
+services:
+  - type: web
+    name: uzafo-portfolio-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: DEBUG
+        value: 'false'
+      - key: PYTHON_VERSION
+        value: 3.13.5
+      - key: MONGO_URI
+        sync: false
+      - key: MONGO_DB
+        value: uzafo_portfolio
+      - key: JWT_SECRET
+        generateValue: true
+      - key: ADMIN_NAME
+        value: Afzalbek Oribjonov
+      - key: ADMIN_EMAIL
+        value: orifjonov0916@gmail.com
+      - key: ADMIN_PASSWORD
+        sync: false
+      - key: ALLOWED_ORIGINS
+        value: https://uzafo.site,https://www.uzafo.site
+      - key: SEED_DEMO_DATA
+        value: 'false'
+      - key: IMAGEKIT_PUBLIC_KEY
+        sync: false
+      - key: IMAGEKIT_PRIVATE_KEY
+        sync: false
+      - key: IMAGEKIT_URL_ENDPOINT
+        sync: false
+      - key: IMAGEKIT_WEBHOOK_SECRET
+        sync: false

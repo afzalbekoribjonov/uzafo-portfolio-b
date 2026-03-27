@@ -1,0 +1,152 @@
+[
+  {
+    "slug": "ai-slide-generator",
+    "title": {
+      "uz": "AI Slide Generator",
+      "en": "AI Slide Generator"
+    },
+    "excerpt": {
+      "uz": "Prompt asosida taqdimot reja va slayd kontentini yaratadigan mahsulot.",
+      "en": "A product that generates presentation plans and slide content from prompts."
+    },
+    "description": {
+      "uz": "Next.js dashboard, Python service va queue orchestration bilan qurilgan tizim.",
+      "en": "A system built with a Next.js dashboard, Python service, and queue orchestration."
+    },
+    "year": "2026",
+    "status": {
+      "uz": "Ishlayapti",
+      "en": "Active"
+    },
+    "cover": "/assets/projects/slide-generator.svg",
+    "tags": [
+      "Next.js",
+      "Python",
+      "Queues",
+      "LLM"
+    ],
+    "metrics": [
+      {
+        "label": {
+          "uz": "Fokus",
+          "en": "Focus"
+        },
+        "value": "Automation"
+      },
+      {
+        "label": {
+          "uz": "Rol",
+          "en": "Role"
+        },
+        "value": "Full-stack"
+      },
+      {
+        "label": {
+          "uz": "Natija",
+          "en": "Result"
+        },
+        "value": "Faster content ops"
+      }
+    ]
+  },
+  {
+    "slug": "legal-assistant-bot",
+    "title": {
+      "uz": "Yuridik AI yordamchi bot",
+      "en": "Legal AI Assistant Bot"
+    },
+    "excerpt": {
+      "uz": "Savol-javob, hujjat tushuntirish va yo'naltirish uchun Telegram bot.",
+      "en": "A Telegram bot for Q&A, document explanations, and guidance."
+    },
+    "description": {
+      "uz": "Python asosidagi bot arxitekturasi, role-based oqimlar va foydalanuvchi konteksti.",
+      "en": "A Python bot architecture with role-based flows and user context."
+    },
+    "year": "2025",
+    "status": {
+      "uz": "Beta",
+      "en": "Beta"
+    },
+    "cover": "/assets/projects/legal-bot.svg",
+    "tags": [
+      "Python",
+      "Telegram",
+      "AI",
+      "MongoDB"
+    ],
+    "metrics": [
+      {
+        "label": {
+          "uz": "Fokus",
+          "en": "Focus"
+        },
+        "value": "Conversational UX"
+      },
+      {
+        "label": {
+          "uz": "Rol",
+          "en": "Role"
+        },
+        "value": "Backend / AI"
+      },
+      {
+        "label": {
+          "uz": "Natija",
+          "en": "Result"
+        },
+        "value": "Guided support"
+      }
+    ]
+  },
+  {
+    "slug": "admission-registration-platform",
+    "title": {
+      "uz": "Admission Registration Platform",
+      "en": "Admission Registration Platform"
+    },
+    "excerpt": {
+      "uz": "Abituriyentlar ro'yxati, imtihon jarayoni va admin panelni boshqaruvchi tizim.",
+      "en": "A system for applicant lists, exam workflows, and admin control."
+    },
+    "description": {
+      "uz": "Telegram WebApp va backend logika bilan tuzilgan qulay ro'yxatdan o'tish ekotizimi.",
+      "en": "A streamlined registration ecosystem built with Telegram WebApp and backend logic."
+    },
+    "year": "2025",
+    "status": {
+      "uz": "Production",
+      "en": "Production"
+    },
+    "cover": "/assets/projects/admission-platform.svg",
+    "tags": [
+      "WebApp",
+      "Python",
+      "Admin Panel",
+      "UX"
+    ],
+    "metrics": [
+      {
+        "label": {
+          "uz": "Fokus",
+          "en": "Focus"
+        },
+        "value": "Operations"
+      },
+      {
+        "label": {
+          "uz": "Rol",
+          "en": "Role"
+        },
+        "value": "System design"
+      },
+      {
+        "label": {
+          "uz": "Natija",
+          "en": "Result"
+        },
+        "value": "Clear workflow"
+      }
+    ]
+  }
+]

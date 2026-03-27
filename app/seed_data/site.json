@@ -1,0 +1,26 @@
+{
+  "brand": "UZAFO",
+  "tagline": {
+    "uz": "Kod, tizim va fikrlar bir joyda.",
+    "en": "Code, systems, and ideas in one place."
+  },
+  "socials": [
+    {
+      "name": "GitHub",
+      "href": "https://github.com/uzafo"
+    },
+    {
+      "name": "LinkedIn",
+      "href": "https://linkedin.com/in/uzafo"
+    },
+    {
+      "name": "Telegram",
+      "href": "https://t.me/uzafo"
+    }
+  ],
+  "resumePdf": "/resume/uzafo-resume-demo.pdf",
+  "status": {
+    "uz": "Frontend demo ma'lumotlar bilan ishlamoqda",
+    "en": "Frontend is running with demo data"
+  }
+}

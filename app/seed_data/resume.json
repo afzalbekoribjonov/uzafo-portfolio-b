@@ -1,0 +1,85 @@
+{
+  "headline": {
+    "uz": "Afzalbek Oribjonov — mahsulot darajasidagi frontend, backend va AI integratsiyalarni birlashtiradigan developer.",
+    "en": "Afzalbek Oribjonov — a developer connecting product-grade frontend, backend, and AI integrations."
+  },
+  "summary": {
+    "uz": "Men 2021 yildan beri Next.js, Python, MongoDB va AI integratsiyalar bilan ishlayman. Kuchli tomonlarim: UI tizimlari, API-friendly arxitektura, admin dashboardlar, real foydalanuvchi oqimlari va avtomatlashtirishga tayyor mahsulotlar.",
+    "en": "I have worked with Next.js, Python, MongoDB, and AI integrations since 2021. My strongest areas are UI systems, API-friendly architecture, admin dashboards, real user flows, and products prepared for automation."
+  },
+  "experience": [
+    {
+      "company": "Independent / Freelance",
+      "role": {
+        "uz": "Full-stack Developer",
+        "en": "Full-stack Developer"
+      },
+      "period": "2023 - Present",
+      "highlights": {
+        "uz": [
+          "Portfolio, automation va admin-panel yo'nalishlarida loyihalar yaratildi.",
+          "Next.js frontendlar Python API va MongoDB arxitekturasi bilan bog'landi.",
+          "AI integratsiyalangan kontent va yordamchi botlar ishlab chiqildi."
+        ],
+        "en": [
+          "Built projects across portfolio, automation, and admin-panel workflows.",
+          "Connected Next.js frontends with Python APIs and MongoDB architecture.",
+          "Developed AI-powered content tools and assistant bots."
+        ]
+      }
+    }
+  ],
+  "education": [
+    {
+      "institution": "Sharda University",
+      "degree": {
+        "uz": "BTech, AI&ML with CSE",
+        "en": "BTech, AI&ML with CSE"
+      },
+      "period": "Ongoing"
+    }
+  ],
+  "skills": {
+    "frontend": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Responsive UI"
+    ],
+    "backend": [
+      "Python",
+      "FastAPI",
+      "Node.js",
+      "REST API",
+      "JWT",
+      "MongoDB"
+    ],
+    "ai": [
+      "Prompt design",
+      "LLM integration",
+      "Automation",
+      "Content pipelines"
+    ],
+    "tools": [
+      "Git",
+      "Docker",
+      "Render",
+      "Vercel",
+      "Postman",
+      "Figma"
+    ]
+  },
+  "awards": [
+    {
+      "title": {
+        "uz": "Amaliy tizimlar qurish tajribasi",
+        "en": "Hands-on systems building"
+      },
+      "description": {
+        "uz": "Production va beta darajadagi bir nechta foydalanuvchi yo'naltirilgan loyiha yaratildi.",
+        "en": "Built multiple user-facing projects at beta and production quality."
+      }
+    }
+  ]
+}

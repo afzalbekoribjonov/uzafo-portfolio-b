@@ -1,0 +1,131 @@
+[
+  {
+    "slug": "building-api-friendly-frontends",
+    "title": {
+      "uz": "API bilan osongina ishlaydigan frontendni qanday rejalash kerak",
+      "en": "How to plan a frontend that stays easy to connect with APIs"
+    },
+    "excerpt": {
+      "uz": "JSON mock data, data-access layer va UI separation orqali frontendni kelajakka tayyorlash haqida.",
+      "en": "How JSON mock data, a data-access layer, and UI separation keep your frontend future-proof."
+    },
+    "cover": "/assets/blog/api-friendly-frontend.svg",
+    "publishedAt": "2026-03-19",
+    "author": {
+      "name": "Afzalbek Oribjonov",
+      "role": {
+        "uz": "Software Engineer",
+        "en": "Software Engineer"
+      }
+    },
+    "readingTime": 6,
+    "likes": 48,
+    "dislikes": 3,
+    "featured": true,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "content": {
+          "uz": "Ko'p loyihalarda frontend tez yoziladi, ammo keyin API bilan ulash paytida komponentlar, ma'lumot strukturalari va sahifalar chalkashib ketadi.",
+          "en": "In many projects the frontend is built quickly, but once API integration starts, components, data shapes, and pages become tangled."
+        }
+      },
+      {
+        "type": "quote",
+        "content": {
+          "uz": "UI qatlamini data qatlamidan erta ajratish keyinchalik katta vaqtni tejaydi.",
+          "en": "Separating the UI layer from the data layer early saves major time later."
+        }
+      },
+      {
+        "type": "code",
+        "language": "ts",
+        "content": {
+          "uz": "export function getLatestPosts() {\\n  return blogPosts.sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));\\n}",
+          "en": "export function getLatestPosts() {\\n  return blogPosts.sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));\\n}"
+        }
+      },
+      {
+        "type": "paragraph",
+        "content": {
+          "uz": "Aynan shu portfolio loyihada ham UI bevosita JSON fayllarga yopishib qolmaydi. Orada data layer bo'ladi va shu qatlam keyinchalik Python API bilan almashtiriladi.",
+          "en": "In this portfolio project, the UI does not bind directly to JSON files. A dedicated data layer sits in between and can later be swapped with a Python API."
+        }
+      },
+      {
+        "type": "image",
+        "src": "/assets/blog/data-flow.svg",
+        "alt": {
+          "uz": "Frontend data flow diagrammasi",
+          "en": "Frontend data flow diagram"
+        }
+      },
+      {
+        "type": "paragraph",
+        "content": {
+          "uz": "Natijada sahifalar kamroq o'zgaradi, test qilish osonlashadi va admin yoki blog kabi bo'limlar mustaqil rivojlantiriladi.",
+          "en": "As a result, pages change less, testing becomes simpler, and sections like admin or blog can evolve independently."
+        }
+      }
+    ],
+    "comments": [
+      {
+        "id": "c1",
+        "author": "Amina",
+        "message": {
+          "uz": "Data layer g'oyasi juda foydali ekan.",
+          "en": "The data-layer idea is really useful."
+        }
+      },
+      {
+        "id": "c2",
+        "author": "Bekzod",
+        "message": {
+          "uz": "Mock data bilan boshlab API'ga o'tish men uchun ham qulay.",
+          "en": "Starting with mock data and moving to an API works well for me too."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "why-discussion-ui-matters",
+    "title": {
+      "uz": "Muhokama interfeysi nega muhim",
+      "en": "Why discussion UI matters"
+    },
+    "excerpt": {
+      "uz": "Kod muammolari uchun muhokama interfeysi faqat chat emas, balki tuzilgan fikrlash vositasi bo'lishi kerak.",
+      "en": "For code problems, a discussion interface should be more than chat; it should support structured thinking."
+    },
+    "cover": "/assets/blog/discussion-ui.svg",
+    "publishedAt": "2026-03-13",
+    "author": {
+      "name": "Afzalbek Oribjonov",
+      "role": {
+        "uz": "Software Engineer",
+        "en": "Software Engineer"
+      }
+    },
+    "readingTime": 4,
+    "likes": 31,
+    "dislikes": 1,
+    "featured": false,
+    "blocks": [
+      {
+        "type": "paragraph",
+        "content": {
+          "uz": "Chap sidebar, title, muammo tavsifi va javoblar oqimi foydalanuvchining e'tiborini saqlaydi.",
+          "en": "A left sidebar, clear title, problem description, and answer flow help users stay focused."
+        }
+      },
+      {
+        "type": "paragraph",
+        "content": {
+          "uz": "Yaxshi discussion UI savol beruvchi va javob beruvchini bir xil darajada qulay his qildiradi.",
+          "en": "A good discussion UI makes both the asker and the responder feel equally supported."
+        }
+      }
+    ],
+    "comments": []
+  }
+]

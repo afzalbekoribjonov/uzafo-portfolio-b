@@ -1,0 +1,107 @@
+[
+  {
+    "slug": "nextjs-routing-and-i18n",
+    "title": {
+      "uz": "Next.js routing va i18n arxitekturasi",
+      "en": "Next.js routing and i18n architecture"
+    },
+    "category": {
+      "uz": "Frontend",
+      "en": "Frontend"
+    },
+    "createdAt": "2026-03-20T10:30:00Z",
+    "author": {
+      "name": "Afzalbek Oribjonov",
+      "avatar": "/assets/avatars/uzafo-avatar.svg",
+      "title": {
+        "uz": "Founder",
+        "en": "Founder"
+      }
+    },
+    "summary": {
+      "uz": "App Router, locale routing va data layer birga qanday ishlashi kerak?",
+      "en": "How should App Router, locale routing, and a data layer work together?"
+    },
+    "content": {
+      "uz": "Portfolio sayt uchun [locale] route'lari, reusable componentlar va keyinchalik API bilan ulanishni soddalashtiruvchi qatlam qurmoqchiman. Sahifalar juda ko'p bo'lsa ham arxitektura toza qolishi kerak.",
+      "en": "For a portfolio site, I want [locale] routes, reusable components, and a layer that makes future API integration simple. Even with many pages, the architecture should stay clean."
+    },
+    "messages": [
+      {
+        "id": "m1",
+        "author": {
+          "name": "Kamron",
+          "badge": {
+            "uz": "Frontend",
+            "en": "Frontend"
+          }
+        },
+        "text": {
+          "uz": "Men odatda `src/data` va `src/lib/data`ni alohida qilaman. UI hech qachon JSON'ni to'g'ridan-to'g'ri o'qimaydi.",
+          "en": "I usually separate `src/data` and `src/lib/data`. The UI never reads JSON directly."
+        },
+        "createdAt": "2026-03-20T11:00:00Z"
+      },
+      {
+        "id": "m2",
+        "author": {
+          "name": "Sabina",
+          "badge": {
+            "uz": "Backend",
+            "en": "Backend"
+          }
+        },
+        "text": {
+          "uz": "Shunda keyinchalik Python API'dan fetch qilish juda oson bo'ladi. Men ham shu usulni tavsiya qilaman.",
+          "en": "That makes switching to a Python API much easier later. I recommend the same approach."
+        },
+        "createdAt": "2026-03-20T12:45:00Z"
+      }
+    ]
+  },
+  {
+    "slug": "python-api-structure-for-portfolio",
+    "title": {
+      "uz": "Portfolio uchun Python API strukturasi",
+      "en": "Python API structure for a portfolio"
+    },
+    "category": {
+      "uz": "Backend",
+      "en": "Backend"
+    },
+    "createdAt": "2026-03-17T08:15:00Z",
+    "author": {
+      "name": "Amina",
+      "avatar": "/assets/avatars/amina-avatar.svg",
+      "title": {
+        "uz": "A'zo",
+        "en": "Member"
+      }
+    },
+    "summary": {
+      "uz": "Blog, portfolio va muhokama ma'lumotlari uchun qanday endpointlar qulay?",
+      "en": "What endpoints are practical for blog, portfolio, and discussion data?"
+    },
+    "content": {
+      "uz": "Frontend oldin mock data bilan ishlaydi. Keyin esa `/api/posts`, `/api/projects`, `/api/discussions` kabi endpointlar ulanishi kerak.",
+      "en": "The frontend starts with mock data. Later, endpoints like `/api/posts`, `/api/projects`, and `/api/discussions` should be connected."
+    },
+    "messages": [
+      {
+        "id": "m1",
+        "author": {
+          "name": "Jamshid",
+          "badge": {
+            "uz": "API",
+            "en": "API"
+          }
+        },
+        "text": {
+          "uz": "List va detail endpointlarni alohida saqlang. Paginationni ham erta rejalashtiring.",
+          "en": "Keep list and detail endpoints separate. Plan pagination early."
+        },
+        "createdAt": "2026-03-17T09:00:00Z"
+      }
+    ]
+  }
+]
