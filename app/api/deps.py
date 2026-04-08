@@ -8,7 +8,6 @@ from app.core.rate_limit import limit_request
 from app.core.security import decode_token
 from app.db.mongo import get_db
 
-
 async def get_optional_user(authorization: str | None = Header(default=None)) -> dict[str, Any] | None:
     if not authorization or not authorization.startswith('Bearer '):
         return None
@@ -22,6 +21,8 @@ async def get_optional_user(authorization: str | None = Header(default=None)) ->
     if not user:
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail='User not found.')
     return user
+
+
 
 
 async def require_user(user: dict[str, Any] | None = Depends(get_optional_user)) -> dict[str, Any]:

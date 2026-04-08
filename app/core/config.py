@@ -17,6 +17,8 @@ class Settings(BaseSettings):
 
     app_name: str = Field(default='UZAFO Portfolio API', alias='APP_NAME')
     app_env: str = Field(default='development', alias='APP_ENV')
+    
+    
     debug: bool = Field(default=False, alias='DEBUG')
     api_prefix: str = Field(default='/api', alias='API_PREFIX')
 
