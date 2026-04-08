@@ -1,4 +1,4 @@
-# UZAFO Portfolio Backend
+# UZAFO Portfolio 
 
 FastAPI + MongoDB + ImageKit backend for the current UZAFO portfolio frontend.
 
