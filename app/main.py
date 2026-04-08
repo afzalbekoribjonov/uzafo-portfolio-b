@@ -2,7 +2,8 @@ from __future__ import annotations
 
 from contextlib import asynccontextmanager
 
-from fastapi import FastAPI
+from fastapi import FastAPI, Request, Response
+from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.api.router import api_router
@@ -40,9 +41,16 @@ app.add_middleware(
 )
 
 
-@app.get('/health')
-async def health():
+def _health_payload():
     return {'status': 'ok', 'service': settings.app_name}
+
+
+@app.api_route('/', methods=['GET', 'HEAD'])
+@app.api_route('/health', methods=['GET', 'HEAD'])
+async def health(request: Request):
+    if request.method == 'HEAD':
+        return Response(status_code=200, headers={'Cache-Control': 'no-store'})
+    return JSONResponse(_health_payload(), headers={'Cache-Control': 'no-store'})
 
 
 app.include_router(api_router)
