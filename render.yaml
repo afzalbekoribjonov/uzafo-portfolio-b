@@ -17,6 +17,16 @@ services:
         sync: false
       - key: MONGO_DB
         value: uzafo_portfolio
+      - key: MONGO_SERVER_SELECTION_TIMEOUT_MS
+        value: '10000'
+      - key: MONGO_CONNECT_TIMEOUT_MS
+        value: '30000'
+      - key: MONGO_SOCKET_TIMEOUT_MS
+        value: '30000'
+      - key: MONGO_STARTUP_ATTEMPTS
+        value: '6'
+      - key: MONGO_STARTUP_RETRY_DELAY_MS
+        value: '5000'
       - key: JWT_SECRET
         generateValue: true
       - key: ADMIN_NAME

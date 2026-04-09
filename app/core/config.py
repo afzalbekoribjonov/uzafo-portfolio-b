@@ -30,6 +30,8 @@ class Settings(BaseSettings):
     mongo_connect_timeout_ms: int = Field(default=10000, alias='MONGO_CONNECT_TIMEOUT_MS', ge=1)
     mongo_socket_timeout_ms: int = Field(default=10000, alias='MONGO_SOCKET_TIMEOUT_MS', ge=1)
     mongo_wait_queue_timeout_ms: int = Field(default=5000, alias='MONGO_WAIT_QUEUE_TIMEOUT_MS', ge=1)
+    mongo_startup_attempts: int = Field(default=4, alias='MONGO_STARTUP_ATTEMPTS', ge=1)
+    mongo_startup_retry_delay_ms: int = Field(default=3000, alias='MONGO_STARTUP_RETRY_DELAY_MS', ge=0)
 
     jwt_secret: str = Field(default=DEFAULT_JWT_SECRET, alias='JWT_SECRET')
     jwt_algorithm: str = Field(default='HS256', alias='JWT_ALGORITHM')
